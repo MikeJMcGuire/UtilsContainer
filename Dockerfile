@@ -13,6 +13,4 @@ ENV HOME /root
 
 WORKDIR /root
 
-CMD ["bash"]
-
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+CMD tail -f /dev/null
